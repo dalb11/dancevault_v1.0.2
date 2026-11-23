@@ -1,0 +1,6 @@
+{
+  "name": "DanceVault",
+  "description": "Biblioteca personal para organizar y estudiar vídeos de clases de baile.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

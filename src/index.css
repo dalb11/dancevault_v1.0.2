@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-surface: #131313;
+  --color-surface-low: #1c1b1b;
+  --color-surface-container: #201f1f;
+  --color-surface-high: #2a2a2a;
+  --color-surface-highest: #353534;
+
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #c8b6b6;
+  --color-outline-variant: #3b2d2e;
+
+  --color-primary: #ffb3b3;
+  --color-primary-container: #ff5261;
+  --color-on-primary-container: #400009;
+
+  --color-secondary: #ffb95f;
+  --color-secondary-container: #ee9800;
+
+  --color-tertiary: #4cd7f6;
+  --color-error: #ffb4ab;
+}
+
+@layer base {
+  html,
+  body {
+    background-color: #131313;
+    color: #e5e2e1;
+    font-family: var(--font-sans);
+    overscroll-behavior-y: contain;
+  }
+}
+
+:root {
+  --dv-safe-top: max(var(--safe-area-inset-top, 0px), env(safe-area-inset-top, 0px));
+  --dv-safe-bottom: max(var(--safe-area-inset-bottom, 0px), env(safe-area-inset-bottom, 0px));
+  --dv-safe-left: max(var(--safe-area-inset-left, 0px), env(safe-area-inset-left, 0px));
+  --dv-safe-right: max(var(--safe-area-inset-right, 0px), env(safe-area-inset-right, 0px));
+}
+
+.pt-safe {
+  padding-top: var(--dv-safe-top);
+}
+
+.pb-safe {
+  padding-bottom: var(--dv-safe-bottom);
+}
+
+.pb-safe-6 {
+  padding-bottom: calc(1.5rem + var(--dv-safe-bottom));
+}
+
+.pb-safe-8 {
+  padding-bottom: calc(2rem + var(--dv-safe-bottom));
+}
+
+.pb-safe-10 {
+  padding-bottom: calc(2.5rem + var(--dv-safe-bottom));
+}
+
+.fs-hud-top {
+  top: calc(0.75rem + var(--dv-safe-top));
+}
+
+.fs-hud-bottom {
+  bottom: calc(1.25rem + var(--dv-safe-bottom));
+}
+
+.pl-safe {
+  padding-left: var(--dv-safe-left);
+}
+
+.pr-safe {
+  padding-right: var(--dv-safe-right);
+}
