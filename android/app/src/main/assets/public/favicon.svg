@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dv-bg" x1="8" y1="4" x2="58" y2="62" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2a161b" />
+      <stop offset="52%" stop-color="#181517" />
+      <stop offset="100%" stop-color="#100f10" />
+    </linearGradient>
+    <radialGradient id="dv-glow" cx="50%" cy="38%" r="58%">
+      <stop offset="0%" stop-color="#ff5261" stop-opacity="0.36" />
+      <stop offset="55%" stop-color="#ffb95f" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#131313" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="dv-arc" x1="12" y1="50" x2="52" y2="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4cd7f6" />
+      <stop offset="55%" stop-color="#ffb95f" />
+      <stop offset="100%" stop-color="#ff5261" />
+    </linearGradient>
+    <linearGradient id="dv-spine" x1="18" y1="15" x2="26" y2="49" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffb95f" />
+      <stop offset="100%" stop-color="#ff5261" />
+    </linearGradient>
+    <linearGradient id="dv-play" x1="25" y1="17" x2="49" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff7480" />
+      <stop offset="45%" stop-color="#ff5261" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="64" height="64" rx="16" fill="url(#dv-bg)" />
+  <rect x="0" y="0" width="64" height="64" rx="16" fill="url(#dv-glow)" />
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14.5" stroke="#ff5261" stroke-opacity="0.4" stroke-width="1.5" />
+  <path d="M11 16V12.5C11 11.67 11.67 11 12.5 11H16M48 11H51.5C52.33 11 53 11.67 53 12.5V16M53 48V51.5C53 52.33 52.33 53 51.5 53H48M16 53H12.5C11.67 53 11 52.33 11 51.5V48" stroke="#ffffff" stroke-opacity="0.14" stroke-width="1.4" stroke-linecap="round" />
+  <path d="M46.5 45.8C39.2 52.2 27.6 52.8 19.6 46.5C11.5 40.1 10.1 28.4 16.2 20.1C21.8 12.4 32.3 10.1 40.9 14.3" stroke="url(#dv-arc)" stroke-width="2.6" stroke-linecap="round" stroke-opacity="0.92" />
+  <circle cx="48.5" cy="43.5" r="2.2" fill="#4cd7f6" />
+  <path d="M21.5 19.5C24.8 22.8 24.8 41.2 21.5 44.5" stroke="url(#dv-spine)" stroke-width="4.2" stroke-linecap="round" />
+  <path d="M28.5 20.3C28.5 18.7 30.25 17.75 31.6 18.6L48.6 29.3C49.9 30.12 49.9 32.02 48.6 32.84L31.6 43.54C30.25 44.39 28.5 43.42 28.5 41.84V20.3Z" fill="url(#dv-play)" />
+  <path d="M31.2 22.4L44.8 31.07L31.2 39.74V22.4Z" stroke="#ffd6db" stroke-opacity="0.32" stroke-width="1.2" stroke-linejoin="round" />
+</svg>

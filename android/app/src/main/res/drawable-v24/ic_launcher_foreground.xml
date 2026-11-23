@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/apk/res/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle Stage Coral/Amber Radial Glow -->
+    <path android:pathData="M0,0H108V108H0Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="46"
+                android:gradientRadius="52"
+                android:type="radial">
+                <item android:color="#52FF5261" android:offset="0.0" />
+                <item android:color="#1FFFB95F" android:offset="0.52" />
+                <item android:color="#00131313" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Precision Vault Corner Ticks (Inside 66dp Safe Zone) -->
+    <path
+        android:pathData="M28,34V30.5C28,29.12 29.12,28 30.5,28H34M74,28H77.5C78.88,28 80,29.12 80,30.5V34M80,74V77.5C80,78.88 78.88,80 77.5,80H74M34,80H30.5C29.12,80 28,78.88 28,77.5V74"
+        android:strokeColor="#28FFFFFF"
+        android:strokeWidth="1.6"
+        android:strokeLineCap="round" />
+
+    <!-- Orbital Rhythm & A-B Loop Arc -->
+    <path
+        android:pathData="M71.5,71.2C63.2,78.5 50.1,79.2 40.9,72.0C31.7,64.8 30.1,51.4 37.0,42.0C43.4,33.2 55.4,30.6 65.1,35.4"
+        android:strokeWidth="3.1"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="74"
+                android:endX="74"
+                android:endY="34"
+                android:type="linear">
+                <item android:color="#FF4CD7F6" android:offset="0.0" />
+                <item android:color="#FFFFB95F" android:offset="0.55" />
+                <item android:color="#FFFF5261" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Luminous A-B Loop Beat Marker -->
+    <path
+        android:fillColor="#4CD7F6"
+        android:pathData="M73.8,68.6m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+
+    <!-- Kinetic Dance Ribbon Spine -->
+    <path
+        android:pathData="M43.0,41.2C46.8,45.0 46.8,65.8 43.0,69.6"
+        android:strokeWidth="4.8"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="41"
+                android:startY="38"
+                android:endX="46"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#FFFFB95F" android:offset="0.0" />
+                <item android:color="#FFFF5261" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sculpted Vault Play Prism -->
+    <path
+        android:pathData="M51.0,42.1C51.0,40.3 53.0,39.2 54.5,40.2L73.9,52.4C75.4,53.3 75.4,55.5 73.9,56.4L54.5,68.6C53.0,69.6 51.0,68.5 51.0,66.7V42.1Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="48"
+                android:startY="40"
+                android:endX="74"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#FFFF7480" android:offset="0.0" />
+                <item android:color="#FFFF5261" android:offset="0.45" />
+                <item android:color="#FFE11D48" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Stage Highlight Bevel -->
+    <path
+        android:pathData="M54.1,44.5L69.6,54.4L54.1,64.3V44.5Z"
+        android:strokeColor="#52FFD6DB"
+        android:strokeWidth="1.4"
+        android:strokeLineJoin="round" />
+</vector>
